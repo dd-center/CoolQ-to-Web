@@ -1,0 +1,19 @@
+{
+  "name": "coolq-to-web",
+  "version": "1.0.0",
+  "description": "把CoolQ上的信息转发到服务器，再展示给所有人，必须通过10k人压力同接。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilibili-dd-center/CoolQ-to-Web.git"
+  },
+  "author": "simon3000 <simon3000@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bilibili-dd-center/CoolQ-to-Web/issues"
+  },
+  "homepage": "https://github.com/bilibili-dd-center/CoolQ-to-Web#readme"
+}
