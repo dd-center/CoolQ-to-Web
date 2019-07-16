@@ -45,6 +45,8 @@ server.on('upgrade', (request, socket, head) => {
       createWsServer(pathname)
     }
     wss[pathname].handleUpgrade(request, socket, head, ws => wss[pathname].emit('connection', ws, request))
+  } else {
+    socket.destroy()
   }
 })
 
