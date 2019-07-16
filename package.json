@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bilibili-dd-center/CoolQ-to-Web/issues"
   },
-  "homepage": "https://github.com/bilibili-dd-center/CoolQ-to-Web#readme"
+  "homepage": "https://github.com/bilibili-dd-center/CoolQ-to-Web#readme",
+  "dependencies": {
+    "cq-websocket": "^2.0.1"
+  }
 }
